@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/*
+ Copyright © Hibrido. All rights reserved.
+* https://www.hibrido.com.br/
+*/
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="quote">
+        <column xsi:type="date" name="hb_amasty_deliverydate_date" nullable="true" comment="Amasty Delivery Date"/>
+        <column xsi:type="smallint" name="hb_amasty_deliverydate_tinterval_id" nullable="true"
+                comment="Amasty Delivery Time Interval ID"/>
+        <column xsi:type="varchar" name="hb_amasty_deliverydate_comment" nullable="true" length="255"
+                comment="Amasty Delivery Comment"/>
+    </table>
+</schema>

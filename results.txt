@@ -1,0 +1,1 @@
+/home/rodrigo/Área de Trabalho/teste/RewriteAmastyDeliveryDate/etc/module.xml
